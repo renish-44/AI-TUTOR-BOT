@@ -172,7 +172,7 @@ for (let i = 0; i < 400; i++) { // 20x20
   grid.appendChild(square);
 }
 
-// 🟢 Your existing tutor bot logic (placeholder)
+// 🟢 Your existing tutor bot logic 
 document.getElementById("sendBtn").addEventListener("click", () => {
   const input = document.getElementById("chatInput").value;
   if (input.trim() === "") return;
@@ -182,3 +182,4 @@ document.getElementById("sendBtn").addEventListener("click", () => {
   chatWindow.appendChild(msg);
   document.getElementById("chatInput").value = "";
 });
+
